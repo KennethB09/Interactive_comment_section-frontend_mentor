@@ -119,8 +119,8 @@ export default function Comment ({
                         (<button className="comments-toggle-btn-toggleReply" onClick={() => toReply(comment.id)}><img className="comments-toggle-btn-toggleReply-icon" alt="comment reply" src="./src/assets/images/icon-reply.svg"/>reply</button>)
                         :
                         (<div className="comments-toggle-brn-toggle-userBtn-container">
-                            <button className="comments-toggle-btn-toggleDelete" onClick={() => toggleDelete(comment.id)}><img className="comments-toggle-btn-toggleDelete-icon" alt="comment delete" src="../assets/images/icon-delete.svg"/>delete</button>
-                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="../assets/images/icon-edit.svg"/>edit</button>
+                            <button className="comments-toggle-btn-toggleDelete" onClick={() => toggleDelete(comment.id)}><img className="comments-toggle-btn-toggleDelete-icon" alt="comment delete" src="../src/assets/images/icon-delete.svg"/>delete</button>
+                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="../src/assets/images/icon-edit.svg"/>edit</button>
                         </div>)
                     }
                 </div>
