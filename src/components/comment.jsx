@@ -116,11 +116,11 @@ export default function Comment ({
                 <div className="comments-toggle-btn-container">
                     {
                         comment.user.username !== currentUser[0].username ? 
-                        (<button className="comments-toggle-btn-toggleReply" onClick={() => toReply(comment.id)}><img className="comments-toggle-btn-toggleReply-icon" alt="comment reply" src="./comment/src/assets/images/icon-reply.svg"/>reply</button>)
+                        (<button className="comments-toggle-btn-toggleReply" onClick={() => toReply(comment.id)}><img className="comments-toggle-btn-toggleReply-icon" alt="comment reply" src="./public/assets/images/icon-reply.svg"/>reply</button>)
                         :
                         (<div className="comments-toggle-brn-toggle-userBtn-container">
-                            <button className="comments-toggle-btn-toggleDelete" onClick={() => toggleDelete(comment.id)}><img className="comments-toggle-btn-toggleDelete-icon" alt="comment delete" src="/comment/src/assets/images/icon-delete.svg"/>delete</button>
-                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="comment/src/assets/images/icon-edit.svg"/>edit</button>
+                            <button className="comments-toggle-btn-toggleDelete" onClick={() => toggleDelete(comment.id)}><img className="comments-toggle-btn-toggleDelete-icon" alt="comment delete" src="./public/assets/images/icon-delete.svg"/>delete</button>
+                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="./public/assets/images/icon-edit.svg"/>edit</button>
                         </div>)
                     }
                 </div>
