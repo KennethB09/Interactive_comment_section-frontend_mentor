@@ -143,9 +143,9 @@ export default function Comment ({
                 </div>
 
                 <div className="comments-score-container">
-                    <button className="comments-score-plusBtn" onClick={() => plus()}><img className="comments-score-plusBtn-icon" alt="comment plus" src="./assets/assets/images/icon-plus.svg"/></button>
+                    <button className="comments-score-plusBtn" onClick={() => plus()}><img className="comments-score-plusBtn-icon" alt="comment plus" src="./assets/images/icon-plus.svg"/></button>
                     <span style={scoreClr} className="comments-score">{commentScore}</span>
-                    <button className="comments-score-minusBtn" onClick={() => minus()}><img className="comments-score-minusBtn-icon" alt="comment minus" src="./assets/assets/images/icon-minus.svg"/></button>
+                    <button className="comments-score-minusBtn" onClick={() => minus()}><img className="comments-score-minusBtn-icon" alt="comment minus" src="./assets/images/icon-minus.svg"/></button>
                 </div>
 
             </div>
