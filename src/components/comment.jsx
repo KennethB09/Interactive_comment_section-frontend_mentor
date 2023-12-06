@@ -120,7 +120,7 @@ export default function Comment ({
                         :
                         (<div className="comments-toggle-brn-toggle-userBtn-container">
                             <button className="comments-toggle-btn-toggleDelete" onClick={() => toggleDelete(comment.id)}><img className="comments-toggle-btn-toggleDelete-icon" alt="comment delete" src="./assets/images/icon-delete.svg"/>delete</button>
-                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="./images/icon-edit.svg"/>edit</button>
+                            <button className="comments-toggle-btn-toggleEdit" onClick={() => toggleEditbtn(comment.id)}><img className="comments-toggle-btn-toggleEdit-icon" alt="comment edit" src="./assets/images/icon-edit.svg"/>edit</button>
                         </div>)
                     }
                 </div>
@@ -143,9 +143,9 @@ export default function Comment ({
                 </div>
 
                 <div className="comments-score-container">
-                    <button className="comments-score-plusBtn" onClick={() => plus()}><img className="comments-score-plusBtn-icon" alt="comment plus" src="./src/assets/images/icon-plus.svg"/></button>
+                    <button className="comments-score-plusBtn" onClick={() => plus()}><img className="comments-score-plusBtn-icon" alt="comment plus" src="./assets/assets/images/icon-plus.svg"/></button>
                     <span style={scoreClr} className="comments-score">{commentScore}</span>
-                    <button className="comments-score-minusBtn" onClick={() => minus()}><img className="comments-score-minusBtn-icon" alt="comment minus" src="./src/assets/images/icon-minus.svg"/></button>
+                    <button className="comments-score-minusBtn" onClick={() => minus()}><img className="comments-score-minusBtn-icon" alt="comment minus" src="./assets/assets/images/icon-minus.svg"/></button>
                 </div>
 
             </div>
